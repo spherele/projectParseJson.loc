@@ -110,5 +110,6 @@ if ($data === false) {
         $excelCreator->createExcelFromData($data);
     } catch (Exception $e) {
         echo "Произошла ошибка: " . $e->getMessage();
+
     }
 }
