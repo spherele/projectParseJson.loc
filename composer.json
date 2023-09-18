@@ -1,0 +1,10 @@
+{
+  "require": {
+    "phpoffice/phpspreadsheet": "^1.18",
+    "ext-zip": "*",
+    "ext-zlib": "*"
+  },
+  "autoload": {
+    "psr-4": {"" : "src/"}
+  }
+}
